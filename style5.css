@@ -1,0 +1,19 @@
+.main{
+    text-align:center;
+    color:green;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.about{
+    text-align: center;
+    color:black;
+
+}
+.information{
+    text-align: center;
+    color:black;
+}
+body {
+    background-image: url("kavya.jpg");
+    background-size:cover ;
+    background-repeat: no-repeat;  /* stops collage effect */
+}

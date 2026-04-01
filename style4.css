@@ -1,0 +1,32 @@
+.site{
+    color:black;
+    text-align: center;
+}
+.pro{
+    text-align: center;
+    color:black;
+}
+body{
+    background-image: url("kavya.jpg");
+    background-size:cover ;
+    background-repeat: no-repeat;  /* stops collage effect */
+}
+.one{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: nowrap;   /* IMPORTANT: keeps everything in one line */
+}
+
+.images{
+    border: 2px solid white;
+    width: 200px;        /* reduce width so all 4 fit */
+    padding: 10px;
+    text-align: center;
+}
+
+.images img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
